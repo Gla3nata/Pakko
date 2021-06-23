@@ -10,14 +10,14 @@ body {
     font-family: 'inter', sans-serif;
 }
 
-/*
+
 a {
     text-decoration: none;
     outline: none;
     background-color: transparent;
     color: #555555;
 }
-*/
+
 .padding-site {
     padding: 50px;
     box-sizing: border-box;
@@ -40,7 +40,7 @@ a {
     align-items: center;
     width: 92px;
     color: #100A30;
-    border: 2px solid green;
+/*    border: 2px solid green;*/
 }
 
 .nav-main {
@@ -252,9 +252,13 @@ a {
     min-height: 208px;
     box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    /*    border: 1px solid green;*/
     margin-top: 24px;
     text-align: center
+}
+
+.services-item:hover {
+    box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .services-img {
@@ -265,7 +269,7 @@ a {
 .services-title {}
 
 .price-block-head {
-    border: 1px solid yellow;
+/*    border: 1px solid yellow;*/
     text-align: center;
 }
 
@@ -293,7 +297,7 @@ a {
 }
 
 .prices {
-    border: 1px solid green;
+/*    border: 1px solid green;*/
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -302,7 +306,7 @@ a {
 .price {
     width: 395px;
     min-height: 398px;
-    border: 1px solid red;
+/*    border: 1px solid red;*/
 }
 
 .price1 {
@@ -576,4 +580,22 @@ a {
     background: url("img/svg/circle.svg") bottom left no-repeat,
         url("img/svg/circleBig.svg");
     background-color: #100A30;
+    text-align: center;
+    margin: 0 auto 152px;
+    border-radius: 8px;
+}
+.subscription-temp {
+    padding: 94px 0 8px 0;
+  color: #fff;
+}
+.subscription-header {
+    color: #fff;
+}
+.sign-btn-down {
+background-color:#100A30;
+}
+
+.sign-btn-down:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
 }
