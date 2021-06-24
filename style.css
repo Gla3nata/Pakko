@@ -19,7 +19,7 @@ a {
 }
 
 .padding-site {
-    padding: 50px;
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -149,6 +149,7 @@ a {
 .features {
     display: flex;
     justify-content: space-around;
+    margin: 22px 40px 92px 71px;
 }
 
 .features-text {
@@ -224,7 +225,9 @@ a {
 
 .features-img {}
 
-.services {}
+.services {
+    padding: 0 50px 130px 50px;
+}
 
 .services-heading {
     padding-bottom: 34px;
@@ -232,6 +235,7 @@ a {
 }
 
 .heading {
+    padding-top: 35px;
     margin: 0 auto;
     font-weight: bold;
     font-size: 48px;
@@ -274,7 +278,7 @@ a {
 }
 
 .price-heading {
-    width: 591px;
+    width: 50%;
 }
 
 .btn-mensuel {
