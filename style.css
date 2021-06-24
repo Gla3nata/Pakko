@@ -38,13 +38,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 92px;
     color: #100A30;
-    /*    border: 2px solid green;*/
+    width: 12%;
 }
 
 .nav-main {
-    width: 630px;
+    width: 50%;
 }
 
 .nav-items {
@@ -59,6 +58,7 @@ a {
     letter-spacing: 0em;
     text-align: left;
     color: black;
+    padding: 0;
 }
 
 .btn {
@@ -116,7 +116,7 @@ a {
 
 .wrp {
     margin: 0 auto;
-    width: 38%;
+    width: 40%;
 }
 
 .wrp-title {
@@ -143,7 +143,7 @@ a {
 }
 
 .features-block {
-    margin: 120px 0 96px 0;
+    margin: 0 auto;
 }
 
 .features {
@@ -295,7 +295,7 @@ a {
 }
 
 .annuel:after {
-      content: "\1F389";  
+    content: "\1F389";
 }
 
 .prices {
@@ -566,12 +566,12 @@ a {
     color: #4C4764;
 }
 
-.icon{
+.icon {
     font-size: 16px
 }
 
-.icon:before{
-  content: "\1F44F";  
+.icon:before {
+    content: "\1F44F";
 }
 
 .signature {
@@ -635,7 +635,7 @@ footer {
 }
 
 .social {
-/*
+    /*
     width: 100px;
     height: 100px;
     border: 1px solid red;
@@ -643,13 +643,13 @@ footer {
 }
 
 .fab {
-    color:  #100A30;
+    color: #100A30;
     font-size: 30px;
     margin: 5px;
 }
 
 .fab:hover {
-    color:  #624DE3;
+    color: #624DE3;
 }
 
 .functions {}
