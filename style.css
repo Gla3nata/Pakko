@@ -273,12 +273,12 @@ a {
 .services-title {}
 
 .price-block-head {
-    /*    border: 1px solid yellow;*/
     text-align: center;
 }
 
 .price-heading {
     width: 50%;
+    padding-bottom: 58px;
 }
 
 .btn-mensuel {
